@@ -16,3 +16,5 @@ const slides = [
 		"tagLine":"Autocollants <span>avec découpe laser sur mesure</span>"
 	}
 ]
+
+// Pour compter le nombre de d'élements dans un tableau utiliser nomDuTableau.lenght
