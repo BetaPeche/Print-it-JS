@@ -17,8 +17,8 @@ const slides = [
 	}
 ]
 
-let dot = document.querySelector(".dots")
-let img = document.querySelector(".banner-img")
+const dot = document.querySelector(".dots")
+const img = document.querySelector(".banner-img")
 
 for (let i = 0; i < slides.length; i++) {
 	let divDot = document.createElement("div")
@@ -30,10 +30,10 @@ for (let i = 0; i < slides.length; i++) {
 	}
 }
 
-let arrow_left = document.querySelector(".arrow_left")
-let arrow_right = document.querySelector(".arrow_right")
+const arrow_left = document.querySelector(".arrow_left")
+const arrow_right = document.querySelector(".arrow_right")
 let index = "0"
-let dotCounter = document.querySelectorAll(".dot")
+const dotCounter = document.querySelectorAll(".dot")
 let text = document.querySelector("#banner p")
 
 arrow_left.addEventListener("click", () => {
