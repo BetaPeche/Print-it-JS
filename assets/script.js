@@ -32,7 +32,7 @@ for (let i = 0; i < slides.length; i++) {
 
 const arrow_left = document.querySelector(".arrow_left")
 const arrow_right = document.querySelector(".arrow_right")
-let index = "0"
+let index = 0
 const dotCounter = document.querySelectorAll(".dot")
 let text = document.querySelector("#banner p")
 
@@ -40,7 +40,7 @@ arrow_left.addEventListener("click", () => {
 	dotCounter[index].classList.remove("dot_selected")
 	index--
 	if (index < 0){
-		index = "3"
+		index = 3
 	}
 	text.innerHTML = slides[index].tagLine
 	dotCounter[index].classList.add("dot_selected")
@@ -51,7 +51,7 @@ arrow_right.addEventListener("click", () => {
 	dotCounter[index].classList.remove("dot_selected")
 	index++
 	if (index === slides.length){
-		index = "0"
+		index = 0
 	}
 	text.innerHTML = slides[index].tagLine
 	dotCounter[index].classList.add("dot_selected")
