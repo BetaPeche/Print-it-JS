@@ -24,7 +24,6 @@ for (let i = 0; i < slides.length; i++) {
 	let divDot = document.createElement("div")
 	dot.appendChild(divDot)
 	divDot.classList.add("dot")
-	console.log(i)
 	if (i === 0) {
 		divDot.classList.add("dot_selected")
 	}
